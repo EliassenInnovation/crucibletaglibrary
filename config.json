@@ -1,0 +1,30 @@
+{
+  "tagLibrary": {
+    "documentationDirectory": "documentation",
+    "ignoreFeatureNameTags": true,
+    "tagListFileName": "tagList.md",
+    "tagDocumentationFileName": "tagDocumentation.md",
+    "tagsMissingDocumentationFileName": "tagsMissingDocumentation.md",
+    "tagParser": "tags",
+    "documentationTagParser": "tagsInDocumentation",
+    "tagPatternsToIgnore": [
+      "gtst-",
+      "gskt-",
+      "na-",
+      "ns-",
+      "na_",
+      "ns_",
+      "gca-",
+      "gca_"
+    ],
+    "useExternalJar": true,
+    "useFeatureNames": false,
+    "jarPath": "target/GCA-UI-Testing-0.2.0.jar",
+    "excludedFileTypes": [
+      "txt"
+    ],
+    "basePath": "features",
+    "markdownTemplatesJson": "tagsMarkdownTemplates.json",
+    "parserJson": "tagParsers.json"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parsers": [
+    {
+      "parserName": "tags",
+      "expression": "(@[^\\s]*)\\s*"
+    },
+    {
+      "parserName": "tagsInDocumentation",
+      "expression": "# (@[^\\s]*)\\s*"
+    }
+  ]
+}
