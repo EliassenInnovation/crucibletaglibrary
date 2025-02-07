@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
     <repositories>
         <repository>
-            <id>Lightwell.MVN</id>
-            <url>https://pkgs.dev.azure.com/lightwellinc-clouddev/_packaging/Lightwell.MVN/maven/v1</url>
+            <id>taglibrary</id>
+            <url>https://maven.pkg.github.com/EliassenInnovation/crucibletaglibrary</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -18,8 +18,8 @@
     <distributionManagement>
         <repository>
             <uniqueVersion>false</uniqueVersion>
-            <id>Lightwell.MVN</id>
-            <url>https://pkgs.dev.azure.com/lightwellinc-clouddev/_packaging/Lightwell.MVN/maven/v1</url>
+            <id>taglibrary</id>
+            <url>https://maven.pkg.github.com/EliassenInnovation/crucibletaglibrary</url>
         </repository>
     </distributionManagement>
     <groupId>com.eliassen.crucible</groupId>
